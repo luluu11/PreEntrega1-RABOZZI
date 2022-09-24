@@ -1,5 +1,5 @@
 import carrito from "./img/carrito.png"
-function Cart()  {
+function CartWidget()  {
     return (
       <>
         <img src={carrito} alt="Carrito" width="35" height="35" />           
@@ -7,4 +7,4 @@ function Cart()  {
     );
   }
 
-  export default Cart;
+  export default CartWidget;

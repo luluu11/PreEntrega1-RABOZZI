@@ -3,8 +3,7 @@ import './style.css';
 import './bootstrap.min.css';
 
 import NavBar from './components/NavBar';
-import Cuerpo from './components/Cuerpo';
-import ListContainer from './components/ListContainer';
+import ItemListContainer from './components/ItemListContainer';
 
 function App() {
   return (
@@ -13,8 +12,7 @@ function App() {
        <NavBar/>
       </header>
       <main>
-      <ListContainer></ListContainer>   
-      <Cuerpo/>
+      <ItemListContainer greeting="Tu universo de aromas"/> 
     </main>
     </div>
  
